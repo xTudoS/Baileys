@@ -36,6 +36,8 @@ import {
 	MediaDownloadOptions
 } from './messages-media'
 
+const ButtonType = proto.Message.ButtonsMessage.HeaderType
+
 type MediaUploadData = {
 	media: WAMediaUpload
 	caption?: string
